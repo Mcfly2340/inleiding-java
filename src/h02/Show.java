@@ -8,13 +8,15 @@ public class Show extends Applet {
 
     //een (lege) methode die de Applet initialiseert
     public void init() {
-        setBackground(Color.blue);
+        setBackground(Color.WHITE);
     }
     //een methode die de inhoud van het scherm tekent
     public void paint(Graphics g) {
-        g.setColor(Color.yellow);
+        g.setColor(Color.BLUE);
         g.setFont(new Font("Comic Sans MS", Font.BOLD, 30));
-        g.drawString("Rick Slierendregt", 150, 130 );
+        g.drawString("Rick", 150, 130 );
+        g.setColor(Color.RED);
+        g.drawString("Slierendregt", 150, 170 );
 
     }
 
