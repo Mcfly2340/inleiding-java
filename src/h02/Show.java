@@ -15,7 +15,6 @@ public class Show extends Applet {
         g.setColor(Color.YELLOW);
         g.setFont(new Font("Comic Sans MS", Font.BOLD, 30));
         g.drawString("Rick", 150, 130 );
-
     }
 
 }
