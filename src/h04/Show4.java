@@ -32,5 +32,6 @@ public class Show4 extends Applet {
         g.drawString("40", 20, 160 );
         //20
         g.drawString("20", 20, 180 );
+
     }
 }
