@@ -22,6 +22,7 @@ public class Show2 extends Applet {
         g.drawRect(100, 200, 25, 50);
         //window
         g.drawRect(150, 180, 30, 30);
+
     }
 }
 
