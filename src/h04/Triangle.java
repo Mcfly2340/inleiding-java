@@ -1,11 +1,11 @@
 package h04;
 
-//Voorbeeld 4.1
+//Voorbeeld 5.1
 
 import java.awt.*;
 import java.applet.*;
 
-public class Show extends Applet {
+public class Triangle extends Applet {
 
     public void init() {
     }

@@ -5,7 +5,7 @@ package h04;
 import java.awt.*;
 import java.applet.*;
 
-public class Show4 extends Applet {
+public class Diagram extends Applet {
 
     public void init() {
     }
