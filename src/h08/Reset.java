@@ -9,40 +9,41 @@ import java.awt.event.*;
 public class Reset extends Applet {
     TextField tekstvak;
     Button knop;
+    Button knop2;
     Label label;
-    double getal;
+    String text;
 
     public void init() {
+        //resetknop
         tekstvak = new TextField("", 30);
         knop = new Button("Reset");
         knop.addActionListener( new NewListener() );
-        add(tekstvak);
         add(knop);
+        add(tekstvak);
+        //text
         label = new Label("Search");
-        tekstvak.addActionListener( new Reset.KnopListener() );
         add(label);
-        add(tekstvak);
-        knop = new Button("Ok");
-        knop.addActionListener( new KnopListener() );
-        add(tekstvak);
-        add(knop);
+        //ok knop
+        knop2 = new Button("Ok");
+        knop2.addActionListener( new KnopListener() );
+        add(knop2);
+        text="";
     }
-
+    //tekstvak
     class NewListener implements ActionListener	{
         public void actionPerformed( ActionEvent e ) {
+            System.out.println(tekstvak.getText());
             tekstvak.setText("");
             repaint();
         }
     }
     public void paint(Graphics g) {
-        g.drawString("Het getal is " + getal, 50, 60 );
+        g.drawString("" + text, 50, 60 );
     }
+    //uitkomst
     class KnopListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            String s = tekstvak.getText();
-            getal = Double.parseDouble( s );
-            //Je kan deze regels ook samenvoegen
-            //getal = Double.parseDouble(tekstvak.getText());
+            text = tekstvak.getText();
             repaint();
         }
     }
