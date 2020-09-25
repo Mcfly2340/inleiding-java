@@ -10,6 +10,7 @@ public class Rekenmachine extends Applet {
     TextField tekstvak;
     TextField tekstvak2;
     Label label;
+    Label label2;
     double getal;
     Button b1;
     Button b2;
@@ -22,6 +23,7 @@ public class Rekenmachine extends Applet {
         //tekstvak
         tekstvak = new TextField("", 20);
         label = new Label("Type een getal");
+        label2 = new Label("Rekenmachine");
         tekstvak.addActionListener( new TekstvakListener() );
         tekstvak2 = new TextField("", 20);
         //+ knop
@@ -31,9 +33,10 @@ public class Rekenmachine extends Applet {
         b2.addActionListener( new Knop2Listener() );
         b3 = new Button("*");
         b3.addActionListener( new Knop3Listener() );
-        b4 = new Button("/");
+        b4 = new Button(":");
         b4.addActionListener( new Knop4Listener() );
         //positie objecten
+        add(label2);
         add(tekstvak2);
         add(tekstvak);
         add(b1);
@@ -43,7 +46,7 @@ public class Rekenmachine extends Applet {
     }
     //plek andwoord
     public void paint(Graphics g) {
-        g.drawString("" + getal, 50, 60 );
+        g.drawString("Het antwoord is " + getal, 50, 60 );
     }
     //tekstvak actie
     class TekstvakListener implements ActionListener {
