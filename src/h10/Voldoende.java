@@ -16,9 +16,12 @@ public class Voldoende extends Applet {
     Label label;
     double s;
     double d;
+    double and, e, q;
+
     String w;
     String a;
     String tekst;
+    String tekst2;
     String text;
     String text2;
     Button button1;
@@ -33,7 +36,6 @@ public class Voldoende extends Applet {
         add(tekstvak);
 
         tekstvak2 = new TextField("", 20);
-        tekstvak.addActionListener(new tekstvakListener());
         add(tekstvak2);
 
         button1 = new Button();
@@ -42,11 +44,17 @@ public class Voldoende extends Applet {
         button1.addActionListener(new tekstvakListener());
         add(button1);
         tekst = "";
+        tekst2 = "";
+
+        q = d*10;
+        e = (int)q;
+        and = e/10;
+        getal = and;
     }
 
     public void paint(Graphics g) {
-        g.drawString(tekst, 50, 100);
-        g.drawString(String.valueOf(getal), 50, 120);
+        g.drawString("Het totaal = " + m, 50, 120);
+        g.drawString(("Gemiddelde = " + getal + tekst2), 50, 100);
     }
 
     class tekstvakListener implements ActionListener {
@@ -56,11 +64,7 @@ public class Voldoende extends Applet {
             s = Double.parseDouble(w);
             d = Double.parseDouble(a);
             m = (s + d);
-            if (m < voldoende) {
-                tekst = "" + m + " = Onvoldoende";
-            } else {
-                tekst = "" + m + " = Voldoende";
-            }
+
             repaint();
         }
     }
@@ -71,6 +75,13 @@ public class Voldoende extends Applet {
             double getal1=Double.parseDouble(text2);
             double getal2=Double.parseDouble(text);
             getal = (getal1 + getal2) / 2;
+            if (getal < voldoende) {
+                tekst2 = " = Onvoldoende";
+            }
+            else {
+                tekst2 = " = Voldoende";
+                System.out.println(tekst2);
+            }
             repaint();
         }
     }
