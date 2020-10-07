@@ -33,9 +33,12 @@ public class Voldoende extends Applet {
 
         tekstvak = new TextField("", 20);
         tekstvak.addActionListener(new tekstvakListener());
+        tekstvak.addActionListener(new buttonListener());
         add(tekstvak);
 
         tekstvak2 = new TextField("", 20);
+        tekstvak2.addActionListener(new buttonListener());
+        tekstvak2.addActionListener(new tekstvakListener());
         add(tekstvak2);
 
         button1 = new Button();
