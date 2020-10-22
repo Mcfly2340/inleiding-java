@@ -17,12 +17,13 @@ public class Praktijkopdracht1 extends Applet {
 
 
     public void init() {
-        //tekstvak
-        tekstvak = new TextField("", 20);
+        //label
         label = new Label("Type een getal");
         add(label);
-        //knop
+        //tekstvak
+        tekstvak = new TextField("", 20);
         add(tekstvak);
+        //knop
         ok = new Button("Ok");
         ok.addActionListener(new KnopListener());
         add(ok);
