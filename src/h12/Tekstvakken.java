@@ -1,7 +1,6 @@
 package h12;
 //12.4
-import h08.BTW;
-
+//NOG NIET AF
 import java.applet.Applet;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -12,30 +11,38 @@ import java.awt.event.ActionListener;
 //en staat op het scherm niet alleen dat de waarde is gevonden maar ook de index.
 //Als de waarde niet is gevonden dan wordt daarvan melding gedaan.
 public class Tekstvakken extends Applet {
-    double Getal[];
+    double gtl=0;
     TextField tekstvak;
+    Button ok;
+    int getal;
 
     public void init() {
         tekstvak = new TextField("", 20);
-        tekstvak.addActionListener(new TekstvakListener());
         add (tekstvak);
-        Getal = new double[10];
-        for (int teller = 0; teller < Getal.length; teller++) {
-            if( 0<0 ){
-                System.out.println(Getal);
-            } else {
-                System.out.println(teller);
-            }
-        }
+        ok = new Button("ok");
+        ok.addActionListener(new ButtonListener());
+        ok.addActionListener(new TekstvakListener());
+        add(ok);
     }
-        public void paint(){
+    public void paint(Graphics g) {
+        g.drawString("Het getal is " + gtl, 50, 60 );
+    }
 
-    }
     class TekstvakListener implements ActionListener {
         public void actionPerformed( ActionEvent e ) {
-            tekstvak.setText("Jammer, " +
-                    "maar nu staat er iets anders");
+            gtl = Integer.parseInt(tekstvak.getText());
             repaint();
+        }
+    }
+    class ButtonListener implements ActionListener {
+        public void actionPerformed( ActionEvent e ) {
+            for(getal = 0; getal < 10; getal++){
+                if(getal<=1){
+                    System.out.println("0");
+                }else{
+                    System.out.println("anders");
+                }
+            }
         }
     }
 }

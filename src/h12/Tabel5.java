@@ -11,7 +11,7 @@ public class Tabel5 extends Applet {
     double gezocht;
 
     public void init() {
-        gezocht = 400;
+        gezocht = 200;
         gevonden = false;
         int teller = 0;
         while(teller < salaris.length) {
