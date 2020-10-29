@@ -8,10 +8,6 @@ import java.awt.event.ActionListener;
 public class MurenTEST extends Applet {
     Button bakMuur;
     Button betMuur;
-    int x1= 20;
-    int y1= 20;
-    int w1= 50;
-    int h1= 15;
     boolean rood = false;
     boolean grijs = false;
     public void init(){
