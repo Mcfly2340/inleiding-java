@@ -5,7 +5,6 @@ import java.awt.*;
 
 public class Bakstenen extends Applet {
     double horizontaal;
-    double d;
 
     public void paint(Graphics g) {
         tekenBaksteen(g, 20, 20, 50, 15);
