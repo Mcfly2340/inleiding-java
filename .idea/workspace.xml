@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="993671b4-7ac5-4313-86b4-d3441f549f4a" name="Default Changelist" comment="Finished 13.3, finished Praktijkopdracht">
+      <change afterPath="$PROJECT_DIR$/src/h13/Neww.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h14/Afbeelding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h14/Kaarten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h14/KaartenTEST0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h14/LoadAndPlay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h14/Random.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h14/Random1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h14/Uitdelen.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="4" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../inleiding-java\exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hJrzdS9F08fp0MDmMqQaIV6VwF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="applet" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Applet.Uitdelen">
+    <configuration name="BTW" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h08.BTW" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Grades" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h06.Grades" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Show1" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h05.Show1" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Show2" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h05.Show2" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Uitdelen" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h14.Uitdelen" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Applet.Uitdelen" />
+        <item itemvalue="Applet.BTW" />
+        <item itemvalue="Applet.Grades" />
+        <item itemvalue="Applet.Show1" />
+        <item itemvalue="Applet.Show2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="993671b4-7ac5-4313-86b4-d3441f549f4a" name="Default Changelist" comment="" />
+      <created>1599740299800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599740299800</updated>
+      <workItem from="1599740300876" duration="3131000" />
+      <workItem from="1600081440337" duration="112000" />
+      <workItem from="1600081567358" duration="4892000" />
+      <workItem from="1600090725898" duration="18038000" />
+      <workItem from="1600363538763" duration="4079000" />
+      <workItem from="1600420632887" duration="13767000" />
+      <workItem from="1600703767155" duration="108000" />
+      <workItem from="1600758306191" duration="11765000" />
+      <workItem from="1600859985773" duration="2983000" />
+      <workItem from="1600952792930" duration="1748000" />
+      <workItem from="1601038156310" duration="16681000" />
+      <workItem from="1601884891406" duration="5069000" />
+      <workItem from="1601899149714" duration="13632000" />
+      <workItem from="1602230650477" duration="613000" />
+      <workItem from="1603266738463" duration="371000" />
+      <workItem from="1603267238254" duration="5748000" />
+      <workItem from="1603280195140" duration="11415000" />
+      <workItem from="1603372105404" duration="1943000" />
+      <workItem from="1603701947384" duration="11953000" />
+      <workItem from="1603719952578" duration="43260000" />
+      <workItem from="1604047249216" duration="2241000" />
+      <workItem from="1605168919590" duration="1984000" />
+      <workItem from="1605531856926" duration="1544000" />
+      <workItem from="1605699794574" duration="13667000" />
+    </task>
+    <task id="LOCAL-00001" summary="change text from &quot;Hallo klas 8A!&quot; to &quot;hallo&quot;">
+      <created>1599742032533</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599742032533</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added &quot;h02&quot; Package &amp; added JavaClass &quot;Show&quot; For 2.1">
+      <created>1600092578794</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600092578794</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changed Background to White, First name's position, and color to Red and Last name to Blue For 2.2">
+      <created>1600092968501</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600092968501</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changed Background to White, First name's position, and color to Red and Last name to Blue For 2.2">
+      <created>1600166293882</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600166293882</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changed Background to White, First name's position, and color to Red and Last name to Blue For 2.2">
+      <created>1600166725897</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600166725897</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Changed Background to White, First name's position, and color to Red and Last name to Blue For 2.2">
+      <created>1600167038317</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600167038317</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added 4.4 diagram">
+      <created>1600167071730</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600167071730</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added 4.3 dutch flag diagram">
+      <created>1600167172314</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600167172314</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added 4.3 dutch flag">
+      <created>1600167191755</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600167191755</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added 4.2 created house">
+      <created>1600167247401</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600167247401</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added 4.1 created triangle">
+      <created>1600167938949</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600167938949</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added 2.1 Yellow name blue background">
+      <created>1600168007039</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600168007039</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added Chapter 5 &amp; 6 And Finished Chapter 5">
+      <created>1600334521883</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1600334521883</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Changed Chapter 6, added first assignment">
+      <created>1600418667971</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600418667971</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Changed Chapter 6, added second assignment">
+      <created>1600419888497</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1600419888497</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Changed Chapter 6, added Third assignment">
+      <created>1600425851441</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1600425851442</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Changed Chapter 6, added Praktijkopdracht">
+      <created>1600428211213</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1600428211213</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Changed Chapter 8, added 8.1 to 8.7">
+      <created>1600676535497</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1600676535497</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Changed Chapter 8, added Assignment 8.1">
+      <created>1600677682396</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1600677682396</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Changed Chapter 8, edited Assignment 8.1">
+      <created>1600679284919</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1600679284919</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Changed Chapter 8, Finished assignment 8.1">
+      <created>1600690189492</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1600690189492</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Changed Chapter 8, added 8.2 with + button but not working">
+      <created>1600760110582</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1600760110582</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Changed Chapter 8, added 8.2 with + button">
+      <created>1600774479976</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1600774479976</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Changed Chapter 8, added 8 Praktijkopdracht MET WERKENDE REKENMACHINE!">
+      <created>1600955404617</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1600955404617</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Changed Chapter 10, and edited assignment 10.1 for the first time not yet working">
+      <created>1601041590208</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1601041590208</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Changed Chapter 10, and finished assignment 10.3">
+      <created>1601042936314</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1601042936314</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Changed Chapter 10, and finished 10.1 and 10.2">
+      <created>1601292341181</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1601292341181</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Changed Chapter 10, and (kind of) finished 10.5">
+      <created>1601900849802</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1601900849802</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Changed Chapter 10, and finished 10.5">
+      <created>1601903086819</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1601903086819</updated>
+    </task>
+    <task id="LOCAL-00030" summary="finished chapter 10 praktijkopdracht">
+      <created>1602071625985</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1602071625985</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Added Chapter 11 Finished 11.1,11.2,11.3,11.4">
+      <created>1603267712168</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1603267712168</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Added Chapter 11 Finished 11.5">
+      <created>1603267985018</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1603267985018</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Added Chapter 11 Finished 11.6">
+      <created>1603268567207</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1603268567207</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Added Chapter 11 Finished 11.7">
+      <created>1603268752468</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1603268752468</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Added Chapter 11 Finished 11.9">
+      <created>1603358225733</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1603358225733</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Added Chapter 11 Finished Praktijkopdracht">
+      <created>1603372527473</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1603372527473</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Added Chapter 11 Edited Praktijkopdracht 1">
+      <created>1603372623332</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1603372623332</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Added Chapter 12 added 12.1">
+      <created>1603372820363</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1603372820363</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Added Chapter 12 added 12.2 - 12.6">
+      <created>1603702254169</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1603702254169</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Added Chapter 12 edited 12.4">
+      <created>1603710714777</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1603710714777</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Added Chapter 12 edited 12.5, 12.6">
+      <created>1603888330518</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1603888330518</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Added Chapter 12 finished Praktijkopdracht">
+      <created>1603960416990</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1603960416990</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Added Chapter 13, added 13.1">
+      <created>1603966449990</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1603966449990</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Finished 13.2, added 13.3">
+      <created>1603970897098</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1603970897098</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Finished 13.3, added Praktijkopdracht">
+      <created>1603978003189</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1603978003189</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Finished 13.3, finished Praktijkopdracht">
+      <created>1603980471620</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1603980471620</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed Chapter 8, added 8.2 with + button" />
+    <MESSAGE value="Changed Chapter 8, added 8 Praktijkopdracht MET WERKENDE REKENMACHINE!" />
+    <MESSAGE value="Changed Chapter 10, and edited assignment 10.1 for the first time not yet working" />
+    <MESSAGE value="Changed Chapter 10, and finished assignment 10.3" />
+    <MESSAGE value="Changed Chapter 10, and finished 10.1 and 10.2" />
+    <MESSAGE value="Changed Chapter 10, and (kind of) finished 10.5" />
+    <MESSAGE value="Changed Chapter 10, and finished 10.5" />
+    <MESSAGE value="Changed Chapter 10, and finished 10 praktijkopdracht" />
+    <MESSAGE value="finished chapter 10 praktijkopdracht" />
+    <MESSAGE value="Added Chapter 11 Finished 11.1,11.2,11.3,11.4" />
+    <MESSAGE value="Added Chapter 11 Finished 11.5" />
+    <MESSAGE value="Added Chapter 11 Finished 11.6" />
+    <MESSAGE value="Added Chapter 11 Finished 11.7" />
+    <MESSAGE value="Added Chapter 11 Finished 11.9" />
+    <MESSAGE value="Added Chapter 11 Finished Praktijkopdracht" />
+    <MESSAGE value="Added Chapter 11 Edited Praktijkopdracht 1" />
+    <MESSAGE value="Added Chapter 12 added 12.1" />
+    <MESSAGE value="Added Chapter 12 added 12.2 - 12.6" />
+    <MESSAGE value="Added Chapter 12 edited 12.4" />
+    <MESSAGE value="Added Chapter 12 edited 12.5, 12.6" />
+    <MESSAGE value="Added Chapter 12 finished Praktijkopdracht" />
+    <MESSAGE value="Added Chapter 13, added 13.1" />
+    <MESSAGE value="Finished 13.2, added 13.3" />
+    <MESSAGE value="Finished 13.3, added Praktijkopdracht" />
+    <MESSAGE value="Finished 13.3, finished Praktijkopdracht" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished 13.3, finished Praktijkopdracht" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1599740488596">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1599740488596" />
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599742498242">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1599742498242" />
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1603971471744">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1603971471744" />
+    <state x="515" y="271" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601040735134">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="515" y="271" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834@0.0.1536.834" timestamp="1601040735134" />
+    <state x="324" y="144" key="FileChooserDialogImpl" timestamp="1605613718312">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="324" y="144" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1605613718312" />
+    <state x="547" y="283" key="Github.CreatePullRequestDialog" timestamp="1600093319020">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="547" y="283" key="Github.CreatePullRequestDialog/0.0.1536.834@0.0.1536.834" timestamp="1600093319020" />
+    <state width="1493" height="292" key="GridCell.Tab.0.bottom" timestamp="1605778752723">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="292" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1605778752723" />
+    <state width="1493" height="292" key="GridCell.Tab.0.center" timestamp="1605778752723">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="292" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1605778752723" />
+    <state width="1493" height="292" key="GridCell.Tab.0.left" timestamp="1605778752723">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="292" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1605778752723" />
+    <state width="1493" height="292" key="GridCell.Tab.0.right" timestamp="1605778752723">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="292" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1605778752723" />
+    <state width="1493" height="332" key="GridCell.Tab.1.bottom" timestamp="1603719933878">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="332" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1603719933878" />
+    <state width="1493" height="332" key="GridCell.Tab.1.center" timestamp="1603719933878">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="332" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1603719933878" />
+    <state width="1493" height="332" key="GridCell.Tab.1.left" timestamp="1603719933878">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="332" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1603719933878" />
+    <state width="1493" height="332" key="GridCell.Tab.1.right" timestamp="1603719933878">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="332" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1603719933878" />
+    <state x="468" y="136" key="RollbackChangesDialog" timestamp="1601900806862">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="468" y="136" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1601900806862" />
+    <state x="249" y="80" key="SettingsEditor" timestamp="1605613609772">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="80" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1605613609772" />
+    <state x="39" y="85" key="Vcs.Push.Dialog.v2" timestamp="1603980473050">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="39" y="85" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1603980473050" />
+    <state x="585" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601040259524">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="585" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1601040259524" />
+    <state x="314" y="152" width="907" height="631" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605778073160">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="314" y="152" width="907" height="631" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.834@0.0.1536.834" timestamp="1605778073160" />
+    <state x="316" y="37" width="1220" height="698" key="new project wizard" timestamp="1605613740215">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="316" y="37" width="1220" height="698" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1605613740215" />
+    <state x="610" y="229" width="622" height="283" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1603352514398">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="610" y="229" width="622" height="283" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.834@0.0.1536.834" timestamp="1603352514398" />
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup" timestamp="1601900800455">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1601900800455" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1605775025993">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1605775025993" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
