@@ -19,15 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="993671b4-7ac5-4313-86b4-d3441f549f4a" name="Default Changelist" comment="Finished 13.3, finished Praktijkopdracht">
-      <change afterPath="$PROJECT_DIR$/src/h13/Neww.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h14/Afbeelding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h14/Kaarten.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h14/KaartenTEST0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h14/LoadAndPlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h14/Random.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h14/Random1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h14/Uitdelen.java" afterDir="false" />
+    <list default="true" id="993671b4-7ac5-4313-86b4-d3441f549f4a" name="Default Changelist" comment="added sounds for examples of h14">
+      <change afterPath="$PROJECT_DIR$/src/h14/ComputerSpel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/smiley.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,16 +67,23 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="applet" />
     </option>
   </component>
-  <component name="RunManager" selected="Applet.Uitdelen">
+  <component name="RunManager" selected="Applet.ComputerSpel">
     <configuration name="BTW" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h08.BTW" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputerSpel" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h14.ComputerSpel" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,22 +96,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Show1" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h05.Show1" />
+    <configuration name="Negative" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h06.Negative" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Show2" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h05.Show2" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Uitdelen" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h14.Uitdelen" />
+    <configuration name="Reken2" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h06.Reken2" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Applet.Uitdelen" />
+        <item itemvalue="Applet.ComputerSpel" />
         <item itemvalue="Applet.BTW" />
         <item itemvalue="Applet.Grades" />
-        <item itemvalue="Applet.Show1" />
-        <item itemvalue="Applet.Show2" />
+        <item itemvalue="Applet.Negative" />
+        <item itemvalue="Applet.Reken2" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +164,13 @@
       <workItem from="1604047249216" duration="2241000" />
       <workItem from="1605168919590" duration="1984000" />
       <workItem from="1605531856926" duration="1544000" />
-      <workItem from="1605699794574" duration="13667000" />
+      <workItem from="1605699794574" duration="17983000" />
+      <workItem from="1605787637311" duration="4963000" />
+      <workItem from="1606116894663" duration="7822000" />
+      <workItem from="1606146602102" duration="2432000" />
+      <workItem from="1606219219765" duration="598000" />
+      <workItem from="1606292101489" duration="3950000" />
+      <workItem from="1606301958362" duration="2623000" />
     </task>
     <task id="LOCAL-00001" summary="change text from &quot;Hallo klas 8A!&quot; to &quot;hallo&quot;">
       <created>1599742032533</created>
@@ -493,7 +494,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603980471620</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="edited h14 added and finished 14.1 and 14.2">
+      <created>1605778825720</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1605778825722</updated>
+    </task>
+    <task id="LOCAL-00048" summary="added sounds for examples of h14">
+      <created>1605778864479</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1605778864479</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,8 +527,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed Chapter 8, added 8.2 with + button" />
-    <MESSAGE value="Changed Chapter 8, added 8 Praktijkopdracht MET WERKENDE REKENMACHINE!" />
     <MESSAGE value="Changed Chapter 10, and edited assignment 10.1 for the first time not yet working" />
     <MESSAGE value="Changed Chapter 10, and finished assignment 10.3" />
     <MESSAGE value="Changed Chapter 10, and finished 10.1 and 10.2" />
@@ -537,7 +550,9 @@
     <MESSAGE value="Finished 13.2, added 13.3" />
     <MESSAGE value="Finished 13.3, added Praktijkopdracht" />
     <MESSAGE value="Finished 13.3, finished Praktijkopdracht" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished 13.3, finished Praktijkopdracht" />
+    <MESSAGE value="edited h14 added and finished 14.1 and 14.2" />
+    <MESSAGE value="added sounds for examples of h14" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sounds for examples of h14" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1599740488596">
@@ -556,30 +571,30 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="515" y="271" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834@0.0.1536.834" timestamp="1601040735134" />
-    <state x="324" y="144" key="FileChooserDialogImpl" timestamp="1605613718312">
+    <state x="324" y="144" key="FileChooserDialogImpl" timestamp="1605789617513">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="324" y="144" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1605613718312" />
+    <state x="324" y="144" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1605789617513" />
     <state x="547" y="283" key="Github.CreatePullRequestDialog" timestamp="1600093319020">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="547" y="283" key="Github.CreatePullRequestDialog/0.0.1536.834@0.0.1536.834" timestamp="1600093319020" />
-    <state width="1493" height="292" key="GridCell.Tab.0.bottom" timestamp="1605778752723">
+    <state width="1493" height="170" key="GridCell.Tab.0.bottom" timestamp="1606309174035">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="292" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1605778752723" />
-    <state width="1493" height="292" key="GridCell.Tab.0.center" timestamp="1605778752723">
+    <state width="1493" height="170" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606309174035" />
+    <state width="1493" height="170" key="GridCell.Tab.0.center" timestamp="1606309174035">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="292" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1605778752723" />
-    <state width="1493" height="292" key="GridCell.Tab.0.left" timestamp="1605778752723">
+    <state width="1493" height="170" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606309174035" />
+    <state width="1493" height="170" key="GridCell.Tab.0.left" timestamp="1606309174035">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="292" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1605778752723" />
-    <state width="1493" height="292" key="GridCell.Tab.0.right" timestamp="1605778752723">
+    <state width="1493" height="170" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606309174035" />
+    <state width="1493" height="170" key="GridCell.Tab.0.right" timestamp="1606309174035">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="292" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1605778752723" />
+    <state width="1493" height="170" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606309174035" />
     <state width="1493" height="332" key="GridCell.Tab.1.bottom" timestamp="1603719933878">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -600,14 +615,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="468" y="136" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1601900806862" />
-    <state x="249" y="80" key="SettingsEditor" timestamp="1605613609772">
+    <state x="249" y="80" key="SettingsEditor" timestamp="1605790215907">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="249" y="80" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1605613609772" />
-    <state x="39" y="85" key="Vcs.Push.Dialog.v2" timestamp="1603980473050">
+    <state x="249" y="80" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1605790215907" />
+    <state x="39" y="85" key="Vcs.Push.Dialog.v2" timestamp="1605778867954">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="39" y="85" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1603980473050" />
+    <state x="39" y="85" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1605778867954" />
     <state x="585" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601040259524">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -624,10 +639,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="610" y="229" width="622" height="283" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.834@0.0.1536.834" timestamp="1603352514398" />
-    <state x="425" y="189" width="672" height="677" key="run.anything.popup" timestamp="1601900800455">
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup" timestamp="1606124532958">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1601900800455" />
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1606124532958" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1605775025993">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
